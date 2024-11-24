@@ -1,0 +1,206 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(https://th.bing.com/th/id/OIG4.zB81ZT0ietUf5jq5ZKmZ?pid=ImgGn);
+    height: 100vh;
+}
+
+
+.logo {
+    text-align: left;
+}
+
+
+
+.nav-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    text-align: center;
+}
+
+
+.nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: chocolate;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.nav-container a {
+    color: burlywood;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+
+.nav-container a:hover {
+    text-decoration: underline;
+    background-color: brown;
+}
+
+
+
+.container {
+    max-width: 800px;
+    margin: 10px auto;
+    padding: 20px;
+    background: rgba(230, 171, 130, 0.15);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+
+h1,
+h2 {
+    color: #f8b400;
+
+}
+
+
+.search-button {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-left: none;
+    border-radius: 0 4px 4px 0;
+    background-color: burlywood;
+    color: chocolate;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: brown;
+}
+
+
+
+
+
+.slideshow-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 20%;
+    height: 250px;
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.slide img {
+    width: 100%;
+    display: block;
+
+
+}
+
+.slides {
+    animation: slide 30s infinite;
+}
+
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(-100%);
+    }
+
+    50% {
+        transform: translateX(-200%);
+    }
+
+    75% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+hr {
+    border: 5px;
+    height: 35px;
+    background-color: chocolate;
+    margin: 20px 0;
+}
+
+}
+
+
+h3 {
+    color: #f8b400;
+    text-align: center;
+    font-size: 30px;
+}
+
+table {
+    width: 90%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    text-align: center;
+    background-color: burlywood;
+    border-radius: 30%;
+    height: 10%;
+}
+
+table,
+th,
+td {
+    border: 3px solid chocolate;
+}
+
+tr {
+    height: 2px;
+
+}
+
+td {
+    height: 2px;
+
+    vertical-align: middle;
+}
+
+.custom-fieldset {
+    border: 6px solid chocolate;
+    padding: 20px;
+    color: brown;
+
+    background-color: burlywood;
+}
+
+.custom-fieldset legend {
+    font-weight: bold;
+    color: brown;
+    font-size: 30px;
+}
+
+
+
+
+.footer {
+    background-color: chocolate;
+    color: burlywood;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    margin: 0;
+}
